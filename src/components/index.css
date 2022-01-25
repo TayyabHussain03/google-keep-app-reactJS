@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.navbar {
+    background-color: rgb(246, 255, 122);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    position: relative;
+}
+
+.copy{
+    position: absolute;
+    right: 15px;
+    bottom: -3px;
+}
+
+.h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.notes {
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    padding: 24px;
+    margin: 26px auto;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.notes:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.notesArea>input {
+    width: 100%;
+    border: none;
+    padding: 7px;
+
+}
+
+.notesArea>textarea {
+    margin-top: 12px;
+    width: 100%;
+    padding: 7px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(246, 255, 122);
+
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+textarea:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(246, 255, 122);
+}
+
+.button {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    background-color: rgb(246, 255, 122);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: -13px;
+    right: -15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.button:hover {
+    border: 3px solid rgb(218, 218, 218);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 488px) {
+    .notes {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 438px) {
+    .notes {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    .notes {
+        width: 250px;
+    }
+
+    .h1 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    .notes {
+        width: 70%;
+    }
+
+    .h1 {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .notes {
+        width: 60%;
+        height: 50%;
+    }
+
+    .h1 {
+        font-size: 16px;
+    }
+}
+
+.addNotes {
+    background-color: white;
+    width: 170px;
+    height: 130px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+@media only screen and (max-width: 658px) {
+    .addNotes{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 608px) {
+    .addNotes{
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .addNotes{
+        width: 85px;
+        height: 90px;
+    }
+}
+
+
+@media only screen and (max-width: 436px) {
+    .addNotes{
+        width: 150px;
+        height: 130px;
+    }
+}
+@media only screen and (max-width: 404px) {
+    .addNotes{
+       width: 130px;
+    }
+}
+@media only screen and (max-width: 335px) {
+    .addNotes{
+       width: 250px;
+    }
+}
+@media only screen and (max-width: 327px) {
+    .addNotes{
+       width: 190px;
+    }
+}
+
+
+.addNotes:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dlt-button {
+    position: absolute;
+    bottom: -10px;
+    right: -12px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(246, 255, 122);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.dlt-button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.container{
+    display: inline-block;
+    margin-left:24px ;
+    height: 50%;
+    margin-bottom: 15px;
+}
+
+
